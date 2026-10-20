@@ -1,7 +1,7 @@
 """Sesión 1. Comparativa de proveedores sobre los mismos correos (genera comparativa.csv)."""
 import csv
 
-from llm_client import LLM
+from Practicas.S1.llm_client import LLM
 
 SISTEMA = ("Eres el asistente de atención al cliente de Tostadero Retiro S.L. "
            "Responde en español y en dos frases como máximo.")
